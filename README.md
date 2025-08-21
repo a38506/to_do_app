@@ -44,6 +44,8 @@ yaml
    cd todo_app flutter pub get
 
 2. Chạy app:
- ```bash
+    ```bash
    flutter run
    flutter run -d chrome
+
+## Ngoài ra có thể tải file apk ở trên để chạy ứng dụng trực tiếp
