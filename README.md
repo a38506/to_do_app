@@ -41,11 +41,9 @@ yaml
 1. Clone repo:
    ```bash
    git clone https://github.com/a38506/to_do_app.git
-   cd todo_app
-
-flutter pub get
+   cd todo_app flutter pub get
 
 2. Chạy app:
-
+ ```bash
 flutter run
 flutter run -d chrome
