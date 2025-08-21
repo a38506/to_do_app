@@ -17,7 +17,7 @@ Hỗ trợ đăng nhập/đăng ký, thêm/sửa/xóa ghi chú, và đồng bộ
 
 ## 📂 Cấu trúc thư mục
 
-"lib/
+```lib/
 ├── main.dart # Khởi tạo Firebase, chạy app
 ├── firebase_options.dart # Cấu hình Firebase
 ├── auth/ # Màn hình login/signup, điều hướng theo trạng thái
@@ -25,12 +25,9 @@ Hỗ trợ đăng nhập/đăng ký, thêm/sửa/xóa ghi chú, và đồng bộ
 ├── data/ # Firestore service & Auth helper
 ├── models/ # Model Notes
 ├── widgets/ # Widget hiển thị ghi chú & StreamBuilder
-└── const/ # Màu sắc, style"
-
+└── const/ # Màu sắc, style
 yaml
-Sao chép
-Chỉnh sửa
-
+```
 ---
 
 ## 🛠 Cài đặt & Chạy
@@ -43,29 +40,12 @@ Chỉnh sửa
 ### Cách chạy
 1. Clone repo:
    ```bash
-   git clone https://github.com/<username>/todo_app.git
+   git clone https://github.com/a38506/to_do_app.git
    cd todo_app
-Cài dependency:
 
-bash
-Sao chép
-Chỉnh sửa
 flutter pub get
-Cấu hình Firebase:
 
-Chạy flutterfire configure
+2. Chạy app:
 
-Thêm file google-services.json (Android) và GoogleService-Info.plist (iOS)
-
-Chạy app:
-
-bash
-Sao chép
-Chỉnh sửa
 flutter run
-Chạy web:
-
-bash
-Sao chép
-Chỉnh sửa
 flutter run -d chrome
