@@ -45,5 +45,5 @@ yaml
 
 2. Chạy app:
  ```bash
-flutter run
-flutter run -d chrome
+   flutter run
+   flutter run -d chrome
